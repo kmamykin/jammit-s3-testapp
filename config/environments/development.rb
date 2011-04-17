@@ -24,7 +24,7 @@ JammitS3Testapp::Application.configure do
   config.action_dispatch.best_standards_support = :builtin
 
   # Enable serving of images, stylesheets, and javascripts from an asset server
-  config.action_controller.asset_host = "#{Jammit.configuration[:s3_bucket]}.s3.amazonaws.com"
-
+  # config.action_controller.asset_host = "#{Jammit.configuration[:s3_bucket]}.s3.amazonaws.com"
+  config.action_controller.asset_host = "#{Jammit.configuration[:cloud_dist_id]}.cloudfront.net"
 end
 
