@@ -1,5 +1,7 @@
-PATH
-  remote: ~/Projects/ruby/jammit-s3
+GIT
+  remote: git://github.com/kmamykin/jammit-s3.git
+  revision: d5eb579b28c1441f3671c65b88abcd312890eca6
+  branch: invalidation
   specs:
     jammit-s3 (0.6.0.2)
       jammit (>= 0.5.4)

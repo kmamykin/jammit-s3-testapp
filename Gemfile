@@ -1,7 +1,9 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.0.6'
-gem 'jammit-s3', :path => "~/Projects/ruby/jammit-s3"
+#gem 'jammit-s3', :path => "~/Projects/ruby/jammit-s3"
+gem 'jammit-s3', :git => 'git://github.com/kmamykin/jammit-s3.git', :branch=>"invalidation"
+#gemspec :path => "~/Projects/ruby/jammit-s3"
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
