@@ -1,14 +1,9 @@
 package_assets: always
-embed_assets: off
+embed_assets: on
 
 javascripts:
   application:
     - public/javascripts/application.js
-    - public/javascripts/controls.js
-    - public/javascripts/dragdrop.js
-    - public/javascripts/effects.js
-    - public/javascripts/prototype.js
-    - public/javascripts/rails.js
 
 stylesheets:
   common:
