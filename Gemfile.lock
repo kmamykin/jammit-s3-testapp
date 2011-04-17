@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/kmamykin/jammit-s3.git
-  revision: d5eb579b28c1441f3671c65b88abcd312890eca6
+  revision: 4bcf0d1bf44fa7c272fccccba9a36aa8062a729c
   branch: invalidation
   specs:
     jammit-s3 (0.6.0.2)

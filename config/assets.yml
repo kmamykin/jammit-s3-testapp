@@ -4,7 +4,8 @@ s3_bucket: jammit-s3-testapp
 s3_access_key_id: <%= ENV['S3_ACCESS_KEY_ID'] %>
 s3_secret_access_key: <%= ENV['S3_SECRET_ACCESS_KEY'] %>
 use_cloudfront: on
-cloud_dist_id: d3ufgt52562mlv
+cloudfront_dist_id: EP4BTJ0LC2NN2
+cloudfront_domain: d3ufgt52562mlv.cloudfront.net
 #s3_cache_control: public, max-age=<%= 365 * 24 * 60 * 60 %>
 #s3_cloudfront_host: <%= ENV['S3_CLOUDFRONT_HOST'] %>
 
