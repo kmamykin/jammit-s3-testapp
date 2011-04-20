@@ -8,13 +8,3 @@ task :update_images do
     cp image_path, dir, :verbose => true
   end
 end
-namespace :jammit do
-  namespace :s3 do
-    desc "Upload Jammit assets to Amazon S3"
-    task :upload do
-      require 'jammit-s3'
-
-      Jammit::S3CommandLine.new
-    end
-  end
-end
